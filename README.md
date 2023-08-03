@@ -1,4 +1,4 @@
-#ThenAnimatable
+# ThenAnimatable
 
 Design and prototype customized UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with ThenAnimatable.
 Fork with [IBAnimatable](https://github.com/IBAnimatable/IBAnimatable.git)
@@ -54,7 +54,7 @@ As you saw above, we can prototype an App fully in Interface Builder without a s
 ```swift
 view.animate(.pop(repeatCount: 1)) // pop animation for the view
 view.animate(.squeezeFade(way: .in, direction: .left)) // squeeze and fade in from left animation
-```  
+```
 
 You can play around with all these predefined animations in the [Swift playground Page - Predefined Animations](ThenAnimatable.playground/Pages/Predefined%20Animations.xcplaygroundpage)
 
@@ -109,5 +109,4 @@ view.animate(.squeeze(way: .in, direction: .left))
 
 ## License
 `ThenAnimatable` is released under the MIT license. See [LICENSE](LICENSE) for details.
-
 
